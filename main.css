@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Istilização do cabeçalho*/
+body > header{
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+}
+
+body{
+    font-family: "Roboto", serif;
+    color: #fff;
+}
+
+.container .logo img{
+    height: 70px;
+}
+
+.container .logo{
+    display: flex;
+    align-items: center;
+}
+
+.container .menu nav li,
+.container .login li{
+    display: inline;
+    margin-left: 28px;
+}
+
+.header,
+.login{
+    display: flex;
+    align-items: center;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .menu a,
+header .container .login a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header .container .logo h1,
+section .container .home h2{
+    font-family: "Bungee", serif;
+    font-weight: normal;
+}
+
+/*Estilização da seção home*/
+
+section .home img,
+section .notícias img{
+    width: 700px;
+    margin-right: 16px;
+}
+
+section .home,
+section .notícias{
+    display: flex;
+    justify-content: flex-start;
+}
+
+section{
+    padding: 16px 0;
+    background-color: rgb(46, 44, 44);
+}
+
+section p{
+    margin-top: 8px;
+    text-align: justify;
+}
+
+/*Lançamentos*/
+
+#laçamentos{
+    display: block;
+}
+
+.container .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .images .image img{
+    height: 290px;
+    width: 190px;
+    margin-right: 30px;
+    position: center;
+}
+
+.container .images .image p{
+    position: relative;
+    left: 50px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 16px;
+}
+
+.container .outras img{
+    height: 130px;
+    width: 170px;
+}
+
+.container .notícias .outras{
+    display: flex;
+    margin: 28px 0;
+}
+

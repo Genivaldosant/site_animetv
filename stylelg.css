@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container .align{
+    margin: 190px;
+}
+
+.container .login{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.container div .form form input,
+.container div .form form button{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: #fff;
+    border: none;
+}
+
+.container div .form form button a{
+    text-decoration: none;
+    color: black;
+}
+
+.container div .form{
+    background-color: rgb(46, 44, 44);
+    height: 200px;
+    width: 350px;
+}
+body{
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+}
