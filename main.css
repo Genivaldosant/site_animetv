@@ -123,3 +123,9 @@ h2{
     margin: 28px 0;
 }
 
+footer{
+    background-color: rgb(22, 21, 21);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
